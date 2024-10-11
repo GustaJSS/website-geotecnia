@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio Geotecnia</title>
+
+    <!-- Todos CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  
+    <!--Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light  fixed-top" style="background-color: rgb(255, 255, 255);">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="/assets/img-home/geo.png" alt="logo" style="height: 45px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Serviço</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#destaque">Destaque</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Equipe</a>
+                    </li>                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ensaios">Ensaios</a>
+                    </li>
+                    <!-- pagina orçamento "MANUTENÇÃO"
+                    <li class="nav-item">
+                      <a class="nav-link btn btn-warning" href="orcamento.html">Orçamento</a>
+                  </li>
+                  -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Navbar fim-->
+
+    <!--Carrosel fotos apresentação-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <!--Foto carousel 1920x1080 -->
+                <img src="" class="d-block w-100" alt="foto-apresentação">
+                <div class="carousel-caption">
+                    <h5>Histórico</h5>
+                    <p>Em 1985 o Laboratório de Geotecnia começou a ser montado  <br> com equipamentos do antigo laboratório da Rodio, doado à universidade pela Construtora Norberto Odebrecht.</p>
+                    <p><a href="historico.html" class="btn btn-warning mt-3">Saber mais</a></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!--Foto carousel 1920x1080 -->
+                <img src="" class="d-block w-100" alt="foto-apresentação">
+                <div class="carousel-caption">
+                    <h5>Obras</h5>
+                    <p>texto</p>
+                    <p><a href="obras.html" class="btn btn-warning mt-3">Saber mais</a></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!--Foto carousel 1920x1080 -->
+                <img src="" class="d-block w-100" alt="foto-apresentação">
+                <div class="carousel-caption">
+                    <h5>Apresentação</h5>
+                    <p>Texto, descrição</p>
+                    <p><a href="#destaque" class="btn btn-warning mt-3">Instrumentação Metro</a></p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--Carrosel fotos apresentação fim-->
+
+    <!-- Seção sobre nós -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="about-img">
+                        <!--Foto 800x800 laboratorio-->
+                        <img src="" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                    <div class="about-text">
+                        <h2>O Laboratório de Geotecnia da Escola Politécnica <br /> Universidade Federal da Bahia</h2>
+                        <p>visa tornar-se o mais bem organizado, equipado e eficiente Laboratório de Geotecnia do País,
+                            e tem como missão determinar as propriedades mecânicas de solos com fins de pesquisa, ensino
+                            e extensão.
+                            O Laboratório também desenvolve trabalhos de pesquisa na área de automação de ensaios em
+                            geotecnia, programas para cálculo do resultado dos ensaios e novos ensaios.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fim seção sobre nos -->
+
+    <!-- Seção serviço -->
+    <section class="services section-padding" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center pb-5">
+                        <h2>Serviço</h2>
+                        <p>Texto Serviço</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-bar-chart-line"></i>
+                            <h3 class="card-title">Melhor Qualidade</h3>
+                            <br>
+                            <p class="lead">O Laboratório de Geotecnia compromete-se a buscar continuamente o aperfeiçoamento de suas atividades, procurando atender às expectativas de seus colaboradores e usuários através:
+
+                                da parceria com atuais fornecedores, com avaliação freqüente e substituição quando necessário;
+                                do aperfeiçoamento e desenvolvimento constante dos colaboradores;
+                                da busca por novas tecnologias;
+                                da melhoria contínua dos processos desenvolvidos;
+                                da manutenção da eficácia do Sistema de Gestão da Qualidade.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-journal"></i>
+                            <h3 class="card-title">Sustentabilidade</h3>
+                            <p class="lead">Texto, Descrição</p>
+                            <button class="btn bg-warning text-dark">Saber mais</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-intersect"></i>
+                            <h3 class="card-title">Integridade</h3>
+                            <p class="lead">Texto, descrição</p>
+                            <button class="btn bg-warning text-dark">Saber mais</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fim seção serviço -->
+
+    <!-- Seção Destaque - Metro -->
+    <section id="destaque" class="portfolio section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center pb-5">
+                        <h2>Destaque</h2>
+                        <h5>Instrumentação Metro</h5>
+                        <p>O Laboratório de Geotecnia é responsável por toda instrumentação geotécnica das obras de
+                            contenções<br>das estações da Lapa e Pólvora, além das instrumentações interna e de
+                            superfície dos túneis Lapa - Pólvora, Rabicho e Cabula.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-white pb-2">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4">
+                                <!--Foto 1 400x400 metro-->
+                                <img src="" class="img-fluid" alt="">
+                            </div>
+                            <h3 class="card-title">Metro</h3>
+                            <p class="lead">Metro texto descrição</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-white pb-2">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4">
+                                <!--Foto 1 400x400 metro-->
+                                <img src="" class="img-fluid" alt="">
+                            </div>
+                            <h3 class="card-title">Metro</h3>
+                            <p class="lead">Metro texto descrição</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-white pb-2">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4">
+                                <!--Foto 1 400x400 metro-->
+                                <img src="" class="img-fluid" alt="">
+                            </div>
+                            <h3 class="card-title">Metro</h3>
+                            <p class="lead">Metro texto descrição</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fim do destaque -->
+
+    <!-- Secão equipe -->
+    <section class="team section-padding" id="team">
+      
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center pb-5">
+                        <h2>Nossa Equipe</h2>
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <!--Coordenadora-->
+
+            
+          <div class="container">
+            <div class="row d-flex justify-content-center">
+              <div class="col-12 col-md-6 col-lg-4">
+                  <div class="card text-center">
+                      <div class="card-body">
+                          <!-- foto 128x128 cada pessoa da equipe -->
+                          <img src="" alt="" class="img-fluid rounded-circle">
+                          <h3 class="card-title py-2">Luciene de Eiraldo Lima</h3>
+                          <h6>Professora | Coordenadora</h6>
+                          <p class="card-text">Descrição texto</p>
+                      </div>
+                  </div>
+              </div>                       
+            </div>
+          </div>
+            
+            <br><br>
+
+            <!--Pesquisadores-->
+
+            
+          <div class="container">
+          <div class="row d-flex justify-content-center">
+              <div class="col-12 col-md-6 col-lg-3">
+                  <div class="card text-center">
+                      <div class="card-body">
+                          <!-- foto 128x128 cada pessoa da equipe -->
+                          <img src="" alt="" class="img-fluid rounded-circle">
+                          <h3 class="card-title py-2">Paulo Burgos</h3>
+                          <h6>Professor | pesquisador</h6>
+                          <p class="card-text">Descrição texto</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <!-- foto 128x128 cada pessoa da equipe -->
+                        <img src="" alt="" class="img-fluid rounded-circle">
+                        <h3 class="card-title py-2">Ynae</h3>
+                        <h6>Professora | pesquisadora</h6>
+                        <p class="card-text">Descrição texto</p>
+                  </div>
+                </div>
+              </div>           
+            </div>
+
+            <br><br>
+            
+            <!--Tecnicos-->
+
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-3">
+                  <div class="card text-center">
+                      <div class="card-body">
+                          <!-- foto 128x128 cada pessoa da equipe -->
+                          <img src="" alt="" class="img-fluid rounded-circle">
+                          <h3 class="card-title py-2">Armando</h3>
+                          <h6>Técnico Laboratórista</h6>
+                          <p class="card-text">Descrição texto</p>
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="col-12 col-md-6 col-lg-3">
+                  <div class="card text-center">
+                      <div class="card-body">
+                          <!-- foto 128x128 cada pessoa da equipe -->
+                          <img src="" alt="" class="img-fluid rounded-circle">
+                          <h3 class="card-title py-2">Júlio</h3>
+                          <h6>Técnico Laboratórista</h6>
+                          <p class="card-text">Descrição texto</p>
+
+                      </div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                  <div class="card text-center">
+                      <div class="card-body">
+                          <!-- foto 128x128 cada pessoa da equipe -->
+                          <img src="" alt="" class="img-fluid rounded-circle">
+                          <h3 class="card-title py-2">Romae</h3>
+                          <h6>Técnico Laboratórista</h6>
+                          <p class="card-text">Descrição texto</p>
+
+                      </div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                  <div class="card text-center">
+                      <div class="card-body">
+                          <!-- foto 128x128 cada pessoa da equipe -->
+                          <img src="" alt="" class="img-fluid rounded-circle">
+                          <h3 class="card-title py-2">Luiz Cotias</h3>
+                          <h6>Engenheiro</h6>
+                          <p class="card-text">Descrição texto</p>
+
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+        </div>
+        <br>
+        <!--quem passou por aqui-->
+        <div class="container">
+          <div class=" d-flex justify-content-center">
+            <p><a href="passou.html" class="btn btn-warning mt-5">Quem passou por aqui</a></p>
+          </div>
+      </div>
+        
+    </section>
+    <!-- fim equipe -->
+    
+    <!--Seção ensaios-->
+    <section class="team section-padding" id="ensaios">
+    <div class="container ">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-header text-center pb-5">
+                    <h2>Ensaios Laboratoriais</h2>
+                    
+                </div>
+            </div>
+        </div>
+    <div class=" row row-cols-1 row-cols-md-2 g-4 ">
+        <div class="col-md-4">
+          <div class="card text-center">
+            <img src="..." class="card-img-top" alt="peneiramento">
+            <div class="card-body">
+              <h5 class="card-title">Granulometria por peneiramento</h5>
+              <p class="card-text">Texto descrição</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center">
+              <img src="..." class="card-img-top" alt="sedimentação">
+              <div class="card-body">
+                <h5 class="card-title">Granulometria por sedimentação</h5>
+                <p class="card-text">Texto descrição</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center">
+              <img src="..." class="card-img-top" alt="massa específica">
+              <div class="card-body">
+                <h5 class="card-title">Massa específica dos sólidos</h5>
+                <p class="card-text">Texto descrição</p>
+              </div>
+            </div>
+          </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <img src="..." class="card-img-top" alt="compactação">
+            <div class="card-body">
+              <h5 class="card-title">Compactação</h5>
+              <p class="card-text">Texto descrição</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <img src="..." class="card-img-top" alt="Cisalhamento">
+            <div class="card-body">
+              <h5 class="card-title">Cisalhamento direto</h5>
+              <p class="card-text">Texto descrição</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <img src="..." class="card-img-top" alt="Triaxial">
+            <div class="card-body">
+              <h5 class="card-title">Triaxial</h5>
+              <p class="card-text">Texto descrição</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center">
+              <img src="..." class="card-img-top" alt="Permeabilidade">
+              <div class="card-body">
+                <h5 class="card-title">Permeabilidade</h5>
+                <p class="card-text">Texto descrição</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center">
+              <img src="..." class="card-img-top" alt="Adensamento">
+              <div class="card-body">
+                <h5 class="card-title">Adensamento</h5>
+                <p class="card-text">Texto descrição</p>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="col-md-4">
+            <div class="card text-center">
+              <img src="..." class="card-img-top" alt="CBR">
+              <div class="card-body">
+                <h5 class="card-title">CBR</h5>
+                <p class="card-text">Texto descrição</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-4">
+            <div class="card text-center">
+              <img src="..." class="card-img-top" alt="Crumb test">
+              <div class="card-body">
+                <h5 class="card-title">Crumb test</h5>
+                <p class="card-text">Texto descrição</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center">
+              <img src="..." class="card-img-top" alt="Pinhole Test">
+              <div class="card-body">
+                <h5 class="card-title">Pinhole Test</h5>
+                <p class="card-text">Texto descrição</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center">
+              <img src="..." class="card-img-top" alt="Equivalente de areia">
+              <div class="card-body">
+                <h5 class="card-title">Equivalente de areia</h5>
+                <p class="card-text">Texto descrição</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center">
+              <img src="..." class="card-img-top" alt="limite">
+              <div class="card-body">
+                <h5 class="card-title">Limite de plasticidade</h5>
+                <p class="card-text">Texto descrição</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <br><br>
+    <div class="container ">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-header text-center pb-5">
+                    <h2>Ensaios de campo</h2>                   
+                </div>
+            </div>
+        </div>
+    <div class=" row row-cols-1 row-cols-md-2 g-4 ">
+        <div class="col-md-4">
+          <div class="card text-center">
+            <img src="..." class="card-img-top" alt="FWD">
+            <div class="card-body">
+              <h5 class="card-title">FWD</h5>
+              <p class="card-text">Texto descrição</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center">
+              <img src="..." class="card-img-top" alt="Vane test">
+              <div class="card-body">
+                <h5 class="card-title">Vane test</h5>
+                <p class="card-text">Texto descrição</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center">
+              <img src="..." class="card-img-top" alt="CPTU">
+              <div class="card-body">
+                <h5 class="card-title">CPTU</h5>
+                <p class="card-text">Texto descrição</p>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!--fim seção ensaios-->
+
+    <!--seção clientes / editando-->
+
+    <!-- desativado "POSSIVEL MANUTENÇÃO"
+    <section>
+        <div class="slide-area">
+            <h2>Clientes</h2>
+            <div class="wrapper">
+                <div class="item">
+                    logo 90x50 transparente
+                    <img src="" alt="Logo">
+                </div>
+                <div class="item">
+                    <img src="/bootstrap-5-project-1/assets/img-logo/logo ufc.png" alt="">
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    -->
+
+
+    <!-- seção footer  -->
+    <div>
+
+        <!-- Footer -->
+        <footer class="text-center text-lg-start text-white color-footer">   
+          <section class="">
+            <div class="container text-center text-md-start mt-5">
+              <div class="row mt-3">
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4" style="margin: 25px;">     
+                  <h6 class="text-uppercase fw-bold" >Laboratório de Geotecnia</h6>
+                  <hr class="mb-4 mt-0 d-inline-block mx-auto"style="width: 60px; background-color: #ffffff; height: 2px"/>
+                  <p>
+                    Escola Politécnica da UFBA
+                  </p>
+                </div>                      
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" style="margin: 25px;">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold" >Contato</h6>
+                  <hr
+                      class="mb-4 mt-0 d-inline-block mx-auto"
+                      style="width: 60px; background-color: #ffffff; height: 2px"
+                      />
+                  <p><i class="bi bi-house-door-fill"></i> Rua Professor Aristides Novis, 2 - Federação, Salvador/BA - 40210-630, Brasil</p>
+                  <p><i class="bi bi-envelope-open-fill"></i> geotecnia@ufba.br</p>
+                  <p><i class="bi bi-telephone-fill"></i> +55 (71) 3283-9898</p>
+                  
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Section: Links  -->
+      
+          <!-- Copyright -->
+          <div
+               class="text-center p-3"
+               style="background-color: rgba(0, 0, 0, 0.2)"
+               >
+            © 2023 Copyright:
+            <a class="text-white" href="https://geotecnia.ufba.br/"
+               >DCTM - Laboratório Geotecnia</a
+              >
+          </div>
+          <!-- Copyright fim -->
+        </footer>
+      </div>
+    <!-- seção footer fim -->
+
+
+
+
+
+
+
+
+
+
+    <!-- All Js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
+
+
+
+

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio Geotecnia</title>
+
+    <!-- Todos CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light  fixed-top" style="background-color: rgb(255, 255, 255);">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="/assets/img-home/geo.png" alt="logo" style="height: 45px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Sobre nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Serviço</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Destaque</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Equipe</a>
+                    </li>
+                    
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Navbar fim-->
+
+    <br><br><br><br><br><br>
+
+    <!-- Seção Destaque - Historico -->
+    
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="about-img">
+                        <!--Foto 800x800 laboratorio-->
+                        <img src="" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                    <div class="about-text">
+                        <h2>O Laboratório de Geotecnia da Escola Politécnica <br /> Universidade Federal da Bahia</h2>
+                        <p>Em 1985 o Laboratório de Geotecnia começou a ser montado com equipamentos do antigo laboratório da Rodio, doado à universidade pela Construtora Norberto Odebrecht. O laboratório era composto de: 1 prensa triaxial Wykeham-farrance, 1 prensa de cisalhamento direto Wykeham-farrance, 1 prensa de cisalhamento direto Ronald-top, 1 prensa de CBR e 2 prensas de adensamento. Na época o Laboratório contava com dois Engenheiros Civis, professores do Departamento de Ciência e Tecnologia dos Materiais (DCTM), e um técnico em geotecnia.
+                            Nesse laboratório seriam realizados ensaios especiais onde amostras de solos são submetidas a esforços mecânicos, e é feita uma série de medições de deformação, pressão neutra, deslocamento etc. A partir das medições feitas são determinadas as características do solo para fins de pesquisa, ensino com aulas práticas e extensão. No início, as medições dos ensaios eram anotadas em uma ficha de ensaio e o resultado calculado da forma tradicional com o uso de calculadora e tabelas. Com a prestação de serviços para empresas locais (extensão), o Laboratório começou a gerar recursos para investir na qualidade dos ensaios. Para tanto, era necessário informatizar o processo de cálculo dos resultados de ensaios e automatizar as prensas, de forma a garantir maior confiabilidade aos dados e liberar o técnico para outras atividades.
+                            <br>
+                            <br>
+                            O processo de informatização começou com o desenvolvimento de um programa em Pascal destinado à ensaios de granulometria (peneiramento e sedimentação) e limites de Atterberg, onde eram digitadas as medições feitas no ensaio e o programa emitia um relatório com a curva granulométrica, carta de plasticidade, análise granulométrica e classificação do solo. Posteriormente foram desenvolvidos programas para os ensaios de Adensamento, Triaxial e Cisalhamento Direto. O próximo passo era fazer com que o computador fizesse as leituras dos ensaios, evitando assim erros de leitura e de digitação.
+                            <br>
+                            <br>
+                            Em 19__ o Laboratório adquiriu o Camaçari, um computador industrial com módulo de aquisição de dados, para fazer automaticamente as leituras dos ensaios. Foi um período de grande aprendizado, pois o Camaçari tinha sido projetado para aplicações industriais (ex: uma planta petroquímica) e não se adequava às necessidades de um laboratório de geotecnia. Com a ajuda de bolsistas de iniciação científica do curso de Eng. Elétrica, tentou-se adaptar o Camaçari e desenvolver um programa de aquisição de dados voltados para ensaios de geotecnia, porém sem sucesso. Decidiu-se então, utilizar o módulo de aquisição de dados do Camaçari acoplado a um microcomputador PC-XT, no qual foi desenvolvido um programa em Pascal para fazer as leituras, gravar em disco e acompanhar o ensaio por meio de gráficos.
+                            <br>
+                            <br>
+                            O sistema apresentou bons resultados, porém ainda apresentava alguns inconvenientes:
+                            <br>
+                            <br>
+                            <li>o alto custo do módulo de aquisição de dados do Camaçari;<br>
+                            <li>a distância entre as prensas e o módulo de aquisição de dados era grande, o que introduzia muito ruído nas leituras;<br>
+                            <li>havia uma limitação de 3 ensaios por computador, por questão de velocidade do computador;
+                            <li>se desse algum problema no computador, perdia os 3 ensaios de uma vez;<br>
+                            <li>não era possível dar manutenção no computador ou no módulo de aquisição de dados, ou sequer trocar um sensor, se um dos 3 ensaios estivesse em andamento;<br>
+                            <li>o alto consumo de energia para manter o sistema funcionando por longo tempo com no-break, no caso de falta de energia;<br>
+                                <br>
+                            Foi então que optou-se por desenvolver um Sistema de Aquisição de Dados (SAD) baseado em Unidades Remotas de Aquisição de Dados (Remota), onde ficaria uma Remota ao lado de cada prensa, se comunicando com o computador através da porta serial. Cada remota teria autonomia para fazer as leituras do ensaio de uma prensa, sendo usado um microcomputador PC-XT para configurar as remotas com os dados do ensaio (intervalo de tempo entre as leituras, número de leituras, ...), acompanhar o ensaio por meio de gráficos e gravar em disco os dados lidos do ensaio.
+                            <br>
+                            Hoje, o Laboratório tem quase todas suas as prensas automatizadas usando as Remotas desenvolvidas, e usa os programas para cálculo de resultado de ensaio (Triaxial, Cisalhamento Direto, Adensamento, Compactação, CBR e Inclinômetro), além de um programa desenvolvido para gerenciamento das amostras de solos e acompanhamento dos ensaios a serem realizados. O corpo técnico hoje é formado por 2 Eng. Civis (profs. do DCTM), 1 Eng. Eletrônico, 2 Técnicos em Geotencia, 3 Laboratoristas e bolsistas de iniciação científica em informática e engenharia elétrica.
+                            <br>
+                            O objetivo agora é melhorar ainda mais a qualidade dos ensaios feitos pelo Laboratório e começar a automatizar os ensaios de campo. Para isso, foram adquiridos um inclinômetro (para medição de deslocamento horizontal do solo) e um piezocone (para ensaios de ___), e serão desenvolvidas Remotas adequadas a ensaios de campo.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--destaque Historico fim-->
+    
+    
+    
+    <!-- seção footer  -->
+    <div>
+
+        <!-- Footer -->
+        <footer class="text-center text-lg-start text-white color-footer" >
+          
+      
+          <!-- Section: Links  -->
+          <section class="">
+            <div class="container text-center text-md-start mt-5">
+              <!-- Grid row -->
+              <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4" style="margin: 25px;">
+                  <!-- Content -->
+                  <h6 class="text-uppercase fw-bold">Laboratório de Geotecnia</h6>
+                  <hr
+                      class="mb-4 mt-0 d-inline-block mx-auto"
+                      style="width: 60px; background-color: #ffffff; height: 2px"
+                      />
+                  <p>
+                    Escola Politécnica da UFBA
+                  </p>
+                </div>
+                
+      
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" style="margin: 25px;">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold">Contato</h6>
+                  <hr
+                      class="mb-4 mt-0 d-inline-block mx-auto"
+                      style="width: 60px; background-color: #ffffff; height: 2px"
+                      />
+                  <p><i class="bi bi-house-door-fill"></i> Rua Professor Aristides Novis, 2 - Federação, Salvador/BA - 40210-630, Brasil</p>
+                  <p><i class="bi bi-envelope-open-fill"></i> geotecnia@ufba.br</p>
+                  <p><i class="bi bi-telephone-fill"></i> +55 (71) 3283-9899</p>
+                  
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+            </div>
+          </section>
+          <!-- Section: Links  -->
+      
+          <!-- Copyright -->
+          <div
+               class="text-center p-3"
+               style="background-color: rgba(0, 0, 0, 0.2)"
+               >
+            © 2023 Copyright:
+            <a class="text-white" href="https://geotecnia.ufba.br/"
+               >DCTM - Laboratório Geotecnia</a
+              >
+          </div>
+          <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+      
+      </div>
+    <!-- seção footer fim -->
+
+
+
+
+
+
+
+
+
+
+    <!-- All Js -->
+    <script>
+    function index() {
+        $('[href="index.html"]').tab('show');
+    }
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
+
+
+
+
